@@ -6,7 +6,6 @@ import ssl
 import seaborn as sns
 
 import matplotlib as plt
-import wget as wget
 
 print(np.__version__)
 
