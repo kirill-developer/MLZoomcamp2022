@@ -202,6 +202,7 @@ def train_linear_regression_reg(X, y, r=0.001):
 # we will use validation set for finding the best value of r
 
 for r in [0, 0.000001, 0.0001, 0.001, 0.01, 0.1, 1, 5, 10]:
+
     # training part
     X_train = prepare_X_fill_with_zeros(df_train)
     w0, w = train_linear_regression_reg(X_train, y_train, r=r)
